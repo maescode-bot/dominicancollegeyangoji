@@ -3,8 +3,8 @@
   <head>
     <!-- Required meta tags -->
    	<meta charset="utf-8">
-	<meta name="keywords" content=""/>
-	<meta name="description" content=""/>
+	<meta name="keywords" content="Dominican, College, Yangoji, Dominican College, Dominican College Yangoji, Dominican College Yangoji Abuja, Dominican College Yangoji Abuja Nigeria"/>
+	<meta name="description" content="Dominican, College, Yangoji, Dominican College, Dominican College Yangoji, Dominican College Yangoji Abuja, Dominican College Yangoji Abuja Nigeria"/>
 	<meta name="author" content="@maescode-bot"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +19,7 @@
 	
   <body>
 	<!-------------Header section starts Here----------->
-		 <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky" id="navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		  <a class="navbar-brand" href="#">
 			  <img src="imgs/logo.png" style="width: 120px">
 		  </a>
@@ -33,7 +33,7 @@
 				<a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.php#vm">ABOUT US</a>
+				<a class="nav-link" href="#vm">ABOUT US</a>
 			  </li>
 			  <li class="nav-item active">
 				<a class="nav-link" href="#">ACADEMICS</a>
@@ -45,7 +45,7 @@
 				<a class="nav-link" href="#">NEWS</a>
 			  </li>
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.php#gallery_section">GALLERY</a>
+				<a class="nav-link" href="#gallery_section">GALLERY</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="contactup.php">CONTACT US</a>
@@ -56,16 +56,13 @@
 		<div id="nav_footer">
 			<div class="row">
 				<div class="col-12 text-right">
-					<h5 class="px-2 animated lightSpeedIn delay-1s">
+					<h5 class="px-2 animated lightSpeedIn delay-1s" style="margin-top:100px; z-index: 1">
 						<span class="text-white">
-						<i class="fab fa-firefox text-white"></i>
-						&nbsp;
-						info@dominicancollegeyangoji.org</span>
+						<i class="fab fa-firefox text-white"> info@dominicancollegeyangoji.org</i>
+						</span>
 						<span class="text-white">
-						&nbsp;&nbsp;
-						<i class="fa fa-phone-square text-white"></i>
 						&nbsp;
-						0803-374-0935, 08100645298
+						<i class="fa fa-phone-square text-white"> 0816 964 1905</i>
 						</span>
 					</h5>
 				</div>
@@ -150,10 +147,10 @@
 					<p class="p-2">
 						 Dominican College,<br> Yangoji, Abuja, <br>Nigeria.
 					</p>
-					<p class="p-2">
-					    <i class="fa fa-eye"></i> &nbsp;<a href="contactup.php">See Our Contact Details</a><br>
-						<i class="fa fa-envelope"></i> &nbsp;info@dominicancollegeyangoji.org <br>
-						<i class="fa fa-phone-square"></i> &nbsp;	0803-374-0935, 08100645298 <br>
+					<p class="p-2 text-dark">
+						<i class="fa fa-map-marker"> <a href="contactup.php" class="text-dark">See Our Contact Details</a></i><br>
+						<i class="fa fa-phone-square"> &nbsp;0803-374-0935, 08100645298 </i><br>
+						<i class="fa fa-envelope">&nbsp;info@dominicancollegeyangoji.org</i> <br>
 					</p>
 				   <p class="p-2">
 						
@@ -163,7 +160,7 @@
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<div id="contact_us" class="mt-5">
-					<h2>Follow us</h2>
+					<h2 class="">Follow us</h2>
 					<hr>
 					<p class="p-2">
 					   <ul class="text-dark">
