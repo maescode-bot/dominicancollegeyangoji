@@ -3,8 +3,8 @@
   <head>
     <!-- Required meta tags -->
    	<meta charset="utf-8">
-	<meta name="keywords" content=""/>
-	<meta name="description" content=""/>
+	<meta name="keywords" content="Dominican, College, Yangoji, Dominican College, Dominican College Yangoji, Dominican College Yangoji Abuja, Dominican College Yangoji Abuja Nigeria"/>
+	<meta name="description" content="Dominican, College, Yangoji, Dominican College, Dominican College Yangoji, Dominican College Yangoji Abuja, Dominican College Yangoji Abuja Nigeria"/>
 	<meta name="author" content="@maescode-bot"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	 <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 	<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
-    <title>Domican College</title>
+    <title>Domican College  | Homepage</title>
   </head>
 	
   <body>
