@@ -12,200 +12,77 @@
 		 Extra (xl) large devices (large desktops, 1200px and up)
 		@media (min-width: 1200px;) {...}
 */
-body{
-    margin:0;
-    padding: 0;
-    background:#fff;
-    font-family: 'Raleway', san-serif;
-    color: black;
-    
+@import url('');
+
+
+@font-face{
+	font-family: "Poppins";
+	src:url("../font/typofont/Poppins-ExtraBold.ttf");
 }
 
-.banner{
-    height: 100vh;
-    width: 100%;
-    /*background-color:blue !important;*/
-    background:url('../imgs/cover.png'), url('../imgs/landing_img.jpg');
-    background-position: top;
-    background-size: cover;
-    /*background-attachment: fixed*/;
-    background-repeat: no-repeat;
-    
+@font-face{
+	font-family: "Poppins-small";
+	src:url("../font/typofont/Poppins-Regular.ttf");
 }
 
-.info{
-     margin-top: 14%;
- }
 
- .info h1{
-    font-weight:bolder;
-    font-size: 3em;
-    color:#fff;
-    letter-spacing:1.2px;
-    border: solid 1px white;
-	padding: .2em;
-    
- }
-
- .info p{
-    font-weight:500 ;
-    font-size:1.8em;
-    color:#fff;  
- }
-.info p .btn{
-		border-radius: 0px;
-	    padding: 1em;
-	    margin-top: 7px;
-		font-weight: bolder;
-	    background-color: #D10E21;
-}
-
-#header{
-}
-.navbar img{
-	width: 100px !important;
-}
-.bg-dark{
-	background-color: black !important;
-}
-
-#social_networks{
-	width:60px;
-	position:fixed;
-	left: 0px;
-	top: 65%;
-	background-color: white;
-	transition: width 2s;
-	z-index: 1;
-}
-
-#social_networks .fab, #social_networks .fa{
-	color:#D10E21;
-}
-.social{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#social_networks:hover{
-	width:  70px !important;
-	transition: width 3s easy-in-out;
-	
-	
-}
-
-#home{
-	color:#D10E21;
-	position:fixed;
-	right: 0px;
-	bottom: 0px;
-	background-color: white;
-	border-radius: 50%;
-	z-index: 1;
-	
-}
-
-.nav-item a{
-	color: white !important;
-	font-weight: bolder;
-}
-
-.nav-item {
-	margin-right: 1em;
-}
-
-#nav_footer{
-	background-color:#D10E21; 
-}
-
-#donates_section{
-	background:url('../imgs/undraw_gift1_sgf8 1.svg');
-    background-position: top;
-    background-size:contain;
-    /*background-attachment: fixed*/;
-    background-repeat: no-repeat;
-	min-height: 200px;
-	
-}
-
-#donates_section h3 {
-	
-}
-
-#donates_section p{
-	font-size: 1.2em;
-}
-
-#gallery{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.gallery img{
-	width: 350px;
-	margin: 5px;
-	padding: 5px;
-}
-
-#footer{
-	min-height: 400px;
-	background:url('../imgs/cover.png');
-    background-position: top;
-    background-size:cover;
-    /*background-attachment: fixed*/;
-	min-height: 400px;
-}
-
-p{
-	text-align: justify;
-	font-size: 1.2em;
-}
-
-#contact_us ul{
-	 list-style: none;
-	 color: black;
-	 font-size: 1.2em;
-}
-
-#contact_us li a{
-	color:black;
-}
-
-#contact_us li:hover{
-	text-decoration: none;
-	font-weight: bolder;
-}
-
-@media (max-width: 900px) {
-	.info{
-     margin-top: 30%;
- }
-
- .info h1{
-    font-weight:bolder;
-    font-size: 2em;
-   
- }
-#main_wrapper{
-		text-align: center;
-	}
-#main_wrapper p{
-		text-align: center;
-	}
-	
-hr{
-	  float: none!important;
-	}
-	
-#nav_footer span{
-		display: block
-	}
-}
+body {  overflow-x:hidden;
+		font-family:"Poppins-small";
+		background-color: #0F1E31;
+		color:white;
+     }
 
 .navbar{
-	z-index:1 !important;
+ 	margin-top: 10px;
 }
 
-.donate:hover{
-	text-decoration: none;
+
+.active div{
+	border-bottom: solid 1px #E0245E;
+	width: 38px !important;
+	margin: auto
+}
+
+
+#name{
+	color:white !important;
+	font-family:"Poppins";
+	font-size: 1.8em;
+	letter-spacing: 1px;
+}
+
+.navbar-nav a{
+	color:white !important; 
+}
+
+#group67{
+	width: 70px;
+	height: 57px;
+	margin-left: -10px;
+}
+
+
+#rule{
+	margin-top: 10px !important;
+	width: 100px;
+	height: 3px;
+	background-color: white;
+}
+
+#about-image{
+	width: 600px;
+	float:right;
+}
+
+#about-text{
+	font-size: 1.5em;
+	width: 600px;
+}
+
+#header h1{
+	font-family:"Poppins";
+	font-size: 3.5em;
+	letter-spacing: 5px;
+	font-style: normal;
+	font-weight: bold;
 }
