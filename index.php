@@ -20,7 +20,7 @@
   <body>
 	<!-------------Header section starts Here----------->
 	 <div id="header" class="banner">
-		 <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky">
+		 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		  <a class="navbar-brand" href="#">
 			  <img src="imgs/logo.png" style="width: 120px">
 		  </a>
@@ -57,16 +57,13 @@
 		<div id="nav_footer">
 			<div class="row">
 				<div class="col-12 text-right">
-					<h5 class="px-2 animated lightSpeedIn delay-1s">
+					<h5 class="px-2 animated lightSpeedIn delay-1s" style="margin-top:100px; z-index: 1">
 						<span class="text-white">
-						<i class="fab fa-firefox text-white"></i>
-						&nbsp;
-						info@dominicancollegeyangoji.org</span>
+						<i class="fab fa-firefox text-white"> info@dominicancollegeyangoji.org</i>
+						</span>
 						<span class="text-white">
-						&nbsp;&nbsp;
-						<i class="fa fa-phone-square text-white"></i>
 						&nbsp;
-						0816 964 1905
+						<i class="fa fa-phone-square text-white"> 0816 964 1905</i>
 						</span>
 					</h5>
 				</div>
@@ -157,7 +154,7 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="container pt-5">
-				<h3 class="text-uppercase">Donate to Support the Project</h3>
+				<h3 class="text-uppercase">Donate to Support the Project <small>(Powered by Society for Vocation Support)</small></h3>
 				<hr class="w-100">
 				<div class="clearfix"></div>
 				<p>
@@ -237,10 +234,10 @@
 					<p class="p-2">
 						 Dominican College,<br> Yangoji, Abuja, <br>Nigeria.
 					</p>
-					<p class="p-2">
-						<i class="fa fa-eye"></i> &nbsp;<a href="contactup.php">See Our Contact Details</a><br>
-						<i class="fa fa-envelope"></i> &nbsp;info@dominicancollegeyangoji.org <br>
-						<i class="fa fa-phone-square"></i> &nbsp;	0803-374-0935, 08100645298 <br>
+					<p class="p-2 text-dark">
+						<i class="fa fa-map-marker"> <a href="contactup.php" class="text-dark">See Our Contact Details</a></i><br>
+						<i class="fa fa-phone-square"> &nbsp;0803-374-0935, 08100645298 </i><br>
+						<i class="fa fa-envelope">&nbsp;info@dominicancollegeyangoji.org</i> <br>
 					</p>
 				   <p class="p-2">
 						
